@@ -1,0 +1,11 @@
+name: holamundo
+on: push:
+      branches:
+        - "main"
+jobs:
+  holamundonuevo:
+    runs-on: ubuntu
+    steps:
+      - name: imprimir
+        run: echo "hola mundo"
+        
