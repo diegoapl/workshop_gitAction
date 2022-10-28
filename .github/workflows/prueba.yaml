@@ -4,8 +4,7 @@ on: push:
         - "main"
 jobs:
   holamundonuevo:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
       - name: imprimir
         run: echo "hola mundo"
-        
